@@ -1,0 +1,2045 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: calc(50% - 20px);
+}
+
+button {
+    padding: 10px 15px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+#ayah-container {
+    margin-top: 20px;
+}
+
+select {
+    margin: 5px;
+    padding: 10px;
+    width: calc(50% - 20px);
+}
+
+button {
+    padding: 10px 15px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+strong {
+    color: #555;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+strong {
+    color: #555;
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px; /* Increased width for better visibility */
+    margin: 50px auto; /* Centering the container with top margin */
+    padding: 30px;
+    background: #ffffff; /* White background for content area */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, button:focus {
+    outline: none;
+    border-color: #007bff; /* Focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* For pseudo-element */
+    overflow: hidden; /* Prevents button text overflow */
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* White overlay */
+    left: -100%; /* Start from left */
+    top: 0;
+    transition: left 0.5s; /* Animation for button click effect */
+}
+
+button:hover::after {
+    left: 0; /* Move overlay to right on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}
+
+#surah-text, #transliteration-text, #translation-text {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px; /* Padding around paragraphs */
+    background-color: #f8f9fa; /* Light background for text blocks */
+    border-left: 5px solid #007bff; /* Left border to emphasize text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start with opacity 0 for fade-in */
+    animation: fadeIn 0.5s forwards; /* Animation */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+strong {
+    color: #555;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Smaller font size for headers */
+    }
+    
+    select, button {
+        font-size: 14px; /* Smaller font size for controls */
+    }
+}
+
+

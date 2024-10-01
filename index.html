@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quran App</h1>
+        <div>
+            <label for="surah">Surah:</label>
+            <select id="surah">
+                <option value="">Select a Surah</option>
+            </select>
+            <label for="ayah">Ayah:</label>
+            <select id="ayah">
+                <option value="">Select an Ayah</option>
+            </select>
+            <button id="fetch-button">Fetch Ayah</button>
+        </div>
+        <div id="ayah-container">
+            <p id="ayah-text">Select a Surah and Ayah to see the text here.</p>
+            <p id="transliteration-text"></p>
+            <p id="translation-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body> 
+</html>
